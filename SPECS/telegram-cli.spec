@@ -21,7 +21,7 @@ BuildRequires:	    libevent-devel, jansson-devel, python-devel
 Command-line interface for Telegram. Uses readline interface.
 
 %prep
-%setup -q
+%setup -q -n tg-%{_github_commit}
 %patch0 -p0
 
 
