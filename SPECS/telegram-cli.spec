@@ -1,6 +1,6 @@
 %global		_github_commit	be1ac1f45691cabfd0456cbcb322eb46bd3ccd3c
 
-Name:           uwsgi
+Name:           telegram-cli
 Version:        0
 Release:        1.%{_github_commit}.vortex%{?dist}
 Summary:        Telegram messenger CLI
