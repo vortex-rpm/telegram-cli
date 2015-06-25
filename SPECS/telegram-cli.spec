@@ -25,6 +25,11 @@ Command-line interface for Telegram. Uses readline interface.
 %patch0 -p0
 
 
+%build
+./configure
+make
+
+
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/%{_datarootdir}/%{name}
