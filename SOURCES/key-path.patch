@@ -1,0 +1,11 @@
+--- main.c.orig	2015-06-25 18:42:19.000000000 +0300
++++ main.c	2015-06-25 18:42:35.000000000 +0300
+@@ -979,7 +979,7 @@
+   #else
+   tgl_set_rsa_key (TLS, "/etc/" PROG_NAME "/server.pub");
+   #endif
+-  tgl_set_rsa_key (TLS, "tg-server.pub");
++  tgl_set_rsa_key (TLS, "/usr/share/telegram-cli/tg-server.pub");
+ 
+ 
+   get_terminal_attributes ();
