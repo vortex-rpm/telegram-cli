@@ -14,7 +14,7 @@ Patch0:         key-path.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:      lua-devel, openssl-devel, libconfig-devel, readline-devel
-BuildRequires:	    libevent-devel, libjansson-devel, python-devel
+BuildRequires:	    libevent-devel, jansson-devel, python-devel
 
 
 %description
